@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- wrap in head -->
+    <head>
+        <meta charset="utf-8">
+        <!-- title of the website -->
+        <title>
+            My first website
+        </title>
+        <!-- Link to href = styles.css -->
+        <link rel="stylesheet" href="styles.css">
+        <!-- internal style sheet, not recommended, but possible -->
+        <!-- <style>
+            div{
+                color:white;
+                background-color: black;
+            }
+            p{
+                color:red;
+            }
+        </style> -->
+    </head>
+
+    <!-- Coments -->
+    <body>
+        <h1>
+            Heading 1
+        </h1>
+        <h2>
+            Heading 2
+        </h2>
+        <h3>
+            Heading 3
+        </h3>
+        <h6>
+            ... All the way to heading 6
+        </h6>
+        <p>
+            Paragraph 1 <em>em = italicized</em>
+        </p>
+        <p>
+            Paragraph 2 <strong>Bolded text</strong>
+        </p>
+        <strong>
+            Strong = bold
+        </strong>
+    </body>
+    <ul>
+        <li>Use ul for unordered lists</li>
+        <li>Use li for each bullet point</li>
+    </ul>
+    <ol>
+        <li>Use ol for ordered lists</li>
+        <li>Still ol for each bullet point</li>
+    </ol>
+
+    <div>Hello world!!!</div>
+    <div>Hello again</div>
+    <div class = "alert-text">Please agree to terms of service</div>
+    <!-- element can only have one id, don't use id that much -->
+    <div id="title"> What the</div>
+    <div class="read">this one is read</div>
+    <div class="unread">this one is unread</div>
+    <!-- chaining, this one has both subsection and header class for selector -->
+    <div>
+        <div class="subsection header">Latest Posts</div>
+        <!-- this one has both subsection class and id preview so it has this property -->
+        <p class="subsection" id = "preview">this is a preview for the latest posts</p>
+    </div>
+    <!-- here's ancestor class -->
+    <div class="ancestor">
+        <!-- descendent of ancestor -->
+        <div class="contents">
+            I should be aqua
+        </div>
+        <div class="contents">
+            Me too
+        </div>
+    </div>
+    <!-- also add css styling like this, also not recommended -->
+    <div style="color: white; background-color: blue;">Hi</div>
+</html>
+

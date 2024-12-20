@@ -1,0 +1,61 @@
+/* Automatically for all */
+*{
+    /* color: purple; */
+    /* or */
+    /* color: #1100ff; */
+    /* or */
+    /* color: rgb(100, 0, 127); */
+    /* or */
+    color: hsl(15, 82%, 56%);
+    /* font-size: smaller; */
+    font-weight: 600;
+    /* text-align: center; */
+}
+/* div selector */
+div{
+    color: white;
+}
+/* alert selector */
+.alert-text{
+    color: red;
+}
+
+/* # for id */
+#title{
+    background-color: red;
+}
+
+/* For grouping elements with similar items, we can use this */
+
+.read, .unread{
+    color: white;
+    background-color: black;
+}
+
+.read{
+    font-family: 'Courier New', Courier, monospace;
+}
+.unread{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* any with both subsection and header has this property */
+.subsection.header{
+    color: red;
+}
+/* similarly, any with both subsection and id preview has this property */
+.subsection#preview{
+    color:blue;
+}
+
+/* for descendents, you have to do it like this where there's a space between ancestors and descendents */
+.ancestor .contents{
+    color: aqua;
+}
+
+/* for images */
+img{
+    height:auto;
+    
+    width: 500px;
+}
